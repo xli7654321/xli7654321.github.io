@@ -4,6 +4,16 @@
 
 // Typography
 
+body {
+  font-family: $body-font-family;
+  font-size: inherit;
+}
+
+code {
+  font-family: $code-font-family;
+  tab-size: 4;
+}
+
 p,
 h1,
 h2,

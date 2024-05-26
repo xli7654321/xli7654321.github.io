@@ -48,3 +48,17 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+// Typography
+$my-font: proximasoft;
+
+// my-font
+@font-face {
+  font-family: $my-font;
+  src: url("../fonts/ProximaSoft-Medium.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$body-font-family: $my-font, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif !default;
+$code-font-family: "Consolas", "SFMono-Regular", menlo, consolas, monospace !default;
