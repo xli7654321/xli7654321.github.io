@@ -4,7 +4,6 @@ title: Jekyll & Markdown
 date: 2024-05-25 12:00
 description: Jekyll & Markdown Tutorial
 tags: Jekyll Markdown
-categories: sample-posts
 ---
 
 ## Jekyll & Markdown
@@ -777,7 +776,7 @@ git push -u origin main
 
 支持中文搜索功能
 
-从https://github.com/MihaiValentin/lunr-languages中下载js文件，然后在head.html 中添加
+从 https://github.com/MihaiValentin/lunr-languages 中下载js文件，然后在 `head.html` 中添加
 
 ```html
 <script src="{{ '/assets/js/vendor/lunr.stemmer.support.js' | relative_url }}"></script>
