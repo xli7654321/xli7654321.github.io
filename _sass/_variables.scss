@@ -32,6 +32,20 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Block colors
+
+$note-bg-color: #2ecc71 !default;
+$note-title-color: #27ae60 !default;
+
+$important-bg-color: #3498db !default;
+$important-title-color: #2980b9 !default;
+
+$warning-bg-color: #e74c3c !default;
+$warning-title-color: #c0392b !default;
+
+$highlight-bg-color: #f1c40f !default;
+$highlight-title-color: #f39c12 !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
@@ -50,17 +64,3 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
-
-// Typography
-$my-font: proximasoft;
-
-// my-font
-@font-face {
-  font-family: $my-font;
-  src: url("../fonts/ProximaSoft-Medium.woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-$body-font-family: $my-font, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif !default;
-$code-font-family: "Consolas", "SFMono-Regular", menlo, consolas, monospace !default;

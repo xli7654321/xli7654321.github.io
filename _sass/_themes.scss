@@ -3,6 +3,7 @@
  ******************************************************************************/
 
 :root {
+  --global-quote-bg-color: #{rgba(#ecf0f1, 0.3)};
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -66,6 +67,7 @@
 }
 
 html[data-theme="dark"] {
+  --global-quote-bg-color: #{rgba(#2c3e50, 0.3)};
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
