@@ -7,4 +7,7 @@ assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
 lighthouse_results/**
-_posts/2015-10-20-math.md
+_drafts/
+_posts/
+_news/
+assets/img/DL-img/WL test - GNN的性能上界.html
